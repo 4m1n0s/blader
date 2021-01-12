@@ -1,0 +1,27 @@
+{
+	"name"       : "iamine/blader",
+	"description": "HTML Generator using Laravel Blade templating engine",
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name" : "iAmine",
+			"email": "tihouati.amine@gmail.com"
+		}
+	],
+	"require"    : {
+		"php"                       : "^7.3",
+		"symfony/console"           : "^5.2",
+		"symfony/finder"            : "^5.2",
+		"illuminate/view"           : "^7.0|8.0",
+		"illuminate/filesystem"     : "^7.0|8.0",
+		"codedungeon/php-cli-colors": "^1.12"
+	},
+	"autoload"   : {
+		"psr-4": {
+			"IAmine\\Blader\\": "src/"
+		},
+		"files": [
+			"src/helpers.php"
+		]
+	}
+}
